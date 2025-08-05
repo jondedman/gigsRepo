@@ -1,4 +1,5 @@
 import Gig from "./components/Gig";
+import Counter from "./components/Counter";
 import "./App.css";
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
      location="The Bedford in Balham"/>
       {/* <Hello name="World" />
       <img className="logo" src={makersLogo}></img> */}
+    <Counter/>
     </>
   );
 }
