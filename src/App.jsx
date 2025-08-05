@@ -13,6 +13,7 @@ function App() {
       {/* <Hello name="World" />
       <img className="logo" src={makersLogo}></img> */}
     <Counter/>
+
     </>
   );
 }
