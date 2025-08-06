@@ -23,3 +23,13 @@ margin-bottom: 0px;
 width: 100%;
 height: 80%;
 }
+
+.visible-heart {
+  color: red;
+  margin-left: 16px;
+  visibility: visible;
+}
+
+.hidden-heart {
+  visibility: hidden;
+}

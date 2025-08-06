@@ -1,21 +1,15 @@
 
 import { useState } from "react";
+import CounterButton from "./counterButton"
+import CounterDisplay from "./counterDisplay";
 
-const Counter = () => {
-    const [count, setCount] = useState(0);
+const Counter = () =>{
+const [count, setCount] = useState(0);
 
-  const incrementCounter = () => {
-    setCount(count + 1);
-  };
-
-    const decrementCounter = () => {
-    setCount(count - 1);
-  };
   return (
     <div>
-      <h1>{count}</h1>
-      <button onClick={incrementCounter}>Increment</button>
-      <button onClick={decrementCounter}>Decrement</button>
+      <CounterDisplay count={count}/>
+      <CounterButton setCount={setCount} count={count} />
     </div>
   );
 }
