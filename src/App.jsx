@@ -10,8 +10,13 @@ function App() {
      description="Live at the Bedford"
      date="July 2nd 730pm"
      location="The Bedford in Balham"/>
-      {/* <Hello name="World" />
-      <img className="logo" src={makersLogo}></img> */}
+         <Gig band="The Band"
+     image="src/assets/peter-herrmann-xCCktWOvROE-unsplash.jpg"
+     description="A random band"
+     date="August 2nd 730pm"
+     location="The Troubadour"/>
+  
+
     <Counter/>
 
     </>
